@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rebeccapurple;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    contain: content;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    flex-direction: column;
+}
+
+
+.input {
+    background-color: #4c2865;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem 3rem;
+    width: 100%;
+    box-shadow: 1px 2px 5px 0 rgba(0, 0, 0, 0.1);
+    outline: none;
+    color: #fff;
+}
+
+.input::placeholder {
+    color: #bbb;
+}
+
+.userCard {
+    width: 100%;
+    max-width: 500px;
+    height: 200px;
+
+}
+
+.repo {
+    background-color: tomato;
+    padding: 5px;
+    margin-left:3px;
+}
+
+
+.card {
+    margin-top: 32px;
+    padding: 20px;
+    max-width: 750px;
+}
+
+.card-body {
+    display: flex;
+    width: 100%;
+}
+
+.card-body img {
+    border-radius: 50%;
+    width: 150px;
+    border: 10px solid #2a2a72;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 70px;
+}
+
+.card-userInfos {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.user-repos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-link {
+    font-size: 12px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    background-color: #2a2a72;
+    margin-right: 20px;
+}
